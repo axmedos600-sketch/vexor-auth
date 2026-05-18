@@ -1,0 +1,6 @@
+{
+  "name": "vexor-auth-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs"
+}
