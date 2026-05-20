@@ -9,8 +9,5 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2"
-  },
-  "devDependencies": {
-    "vercel": "^42.3.0"
   }
 }
