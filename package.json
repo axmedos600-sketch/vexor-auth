@@ -1,6 +1,16 @@
 {
-  "name": "vexor-auth-server",
+  "name": "vortex-loader-api",
   "version": "1.0.0",
   "private": true,
-  "type": "commonjs"
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2"
+  },
+  "devDependencies": {
+    "vercel": "^42.3.0"
+  }
 }
