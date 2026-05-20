@@ -13,7 +13,13 @@ export default async function handler(req, res) {
     .order("title", { ascending: true });
 
   if (error) {
-    sendJson(res, 500, { error: "database_error" });
+    console.error(error);
+    sendJson(res, 500, {
+      error: "database_error",
+      message: error.message,
+      code: error.code,
+      details: error.details,
+    });
     return;
   }
 
